@@ -50,8 +50,3 @@ The FIFO operates synchronously with a single clock and supports:
 - SystemVerilog
 - UVM (conceptual)
 - EDA Playground / Simulator
-
-📬 Author
-
-Rashmi Singh
-Design Verification Engineer
