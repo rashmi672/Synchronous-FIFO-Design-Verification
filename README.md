@@ -49,4 +49,4 @@ The FIFO operates synchronously with a single clock and supports:
 🛠️ Tools Used
 - SystemVerilog
 - UVM (conceptual)
-- EDA Playground / Simulator
+- EDA Playground / Simulator (https://www.edaplayground.com/x/DBQs)
