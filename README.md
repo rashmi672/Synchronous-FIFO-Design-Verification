@@ -30,3 +30,28 @@ The FIFO operates synchronously with a single clock and supports:
 
 - Circular buffer using pointers
 - Pointer wrap-around is expected:
+
+📊 Simulation Observations
+- Data mismatch was due to incorrect driver timing
+- Fixing driver alignment solved:
+- Multi-cycle data hold issue
+- Incorrect reads
+- Pointer confusion
+
+
+🚀 Future Improvements
+- Add occupancy counter
+- Improve full/empty logic (true depth usage)
+- Add assertions (SVA)
+- Integrate full UVM scoreboard
+- Add coverage metrics
+
+🛠️ Tools Used
+- SystemVerilog
+- UVM (conceptual)
+- EDA Playground / Simulator
+
+📬 Author
+
+Rashmi Singh
+Design Verification Engineer
